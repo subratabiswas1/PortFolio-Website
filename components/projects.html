@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal PortFolio</title>
+    <link rel="shortcut icon" href="../images/9.jpg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">PortFolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="academics.html">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Other
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="extra.html"
+                    >Extra-curricular</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="extra.html">Interests</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="extra.html">PORs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="extra.html">Achivements</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <a class="dropdown-item" href="contact.html">Contact Me</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Download CV
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Hey,</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Are you sure to download?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a class="btn btn-outline-primary"href="https://drive.google.com/file/d/1lA8GzqbqOz6JJ-PgToEz--jt-Tg3oatN/view?usp=sharing" role="button"target="_blank">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid my-4">
+      <div class="card my-4">
+        <div class="card-header">
+          DIY PROJECT ~ course project
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Remote Monitoring of Water Level in a Water Tank</h5>
+          <ul class="card-text">
+            <li>Used Arduino UNO R3 to automate the pump and LCD Display with I2C module to monitor the level of water</li>
+            <li>Arduino IDE and EasyEDA were used to write the code and design the circuit</li>
+            <li>Link of the PPT is given</li>
+          </ul>
+          <a href="https://docs.google.com/presentation/d/1DaGUdn6tsLtJ1XqsVhxoA5WYD9XxIdhz/edit" class="btn btn-outline-primary btn-sm" target="_blank">Link</a>
+        </div>
+      </div>
+      <div class="card my-4">
+        <div class="card-header">
+          A Resturant Website ~ self project
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">An unresponsive Resturant Website Using only HTML and CSS</h5>
+          <ul class="card-text">
+            
+          </ul>
+          <a href="https://subratabiswas1.github.io/khanakhajana.github.io/" class="btn btn-outline-primary btn-sm" target="_blank">Link</a>
+        </div>
+      </div>
+    </div>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

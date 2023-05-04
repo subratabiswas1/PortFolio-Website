@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal PortFolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/9.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">PortFolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="components/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="components/academics.html">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="components/skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="components/projects.html">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Other
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="components/extra.html"
+                    >Extra-curricular</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="components/extra.html"
+                    >Interests</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="components/extra.html">PORs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="components/extra.html"
+                    >Achivements</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="components/blog.html">Blog</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="components/contact.html"
+                    >Contact Me</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <button
+              type="button"
+              class="btn btn-outline-success"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Download CV
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Hey,</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Are you sure to download?</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a
+              class="btn btn-outline-primary"
+              href="https://drive.google.com/file/d/1lA8GzqbqOz6JJ-PgToEz--jt-Tg3oatN/view?usp=sharing"
+              role="button"
+              target="_blank"
+              >Download</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-{breakpoint}">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h1 style="font-size: 8rem">Hi, Subrata Here</h1>
+              <p>A Programming Enthusiast</p>
+              <a
+                href="https://www.facebook.com/subratabiswas.699"
+                class="btn btn-primary my-2 mx-2"
+                role="button"
+                target="_blank"
+                >Facebook</a
+              >
+              <a
+                href="https://www.instagram.com/subrata_biswas2004/"
+                class="btn btn-success my-2 mx-2"
+                role="button"
+                target="_blank"
+                >Instagram</a
+              >
+              <a
+                href="https://www.linkedin.com/in/biswassubrata/"
+                class="btn btn-danger my-2 mx-2"
+                role="button"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Want to know me?</h1>
+              <p>A student persuing B.Tech</p>
+              <a
+                href="https://www.facebook.com/subratabiswas.699"
+                class="btn btn-primary my-2 mx-2"
+                role="button"
+                target="_blank"
+                >Facebook</a
+              >
+              <a
+                href="https://www.instagram.com/subrata_biswas2004/"
+                class="btn btn-success my-2 mx-2"
+                role="button"
+                target="_blank"
+                >Instagram</a
+              >
+              <a
+                href="https://www.linkedin.com/in/biswassubrata/"
+                class="btn btn-danger my-2 mx-2"
+                role="button"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Then Follow me</h1>
+              <p>Proud of being an Indian</p>
+              <a
+                href="https://www.facebook.com/subratabiswas.699"
+                class="btn btn-primary my-2 mx-2"
+                role="button"
+                target="_blank"
+                >Facebook</a
+              >
+              <a
+                href="https://www.instagram.com/subrata_biswas2004/"
+                class="btn btn-success my-2 mx-2"
+                role="button"
+                target="_blank"
+                >Instagram</a
+              >
+              <a
+                href="https://www.linkedin.com/in/biswassubrata/"
+                class="btn btn-danger my-2 mx-2"
+                role="button"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container my-4">
+      <div class="card-group">
+        <div class="card mx-4">
+          <img
+            src="images/4.jpg"
+            class="card-img-top img-fluid"
+            style="max-height: 41rem"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Picture 1</h5>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card mx-4">
+          <img
+            src="images/5.jpg"
+            class="card-img-top img-fluid"
+            style="max-height: 41rem"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Picture 2</h5>
+            <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card mx-4">
+          <img
+            src="images/6.jpg"
+            class="card-img-top img-fluid"
+            style="max-height: 41rem"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Picture 3</h5>
+            <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card text-center">
+      <div class="card-body text-bg-success p-3">
+        <hr />
+        <p class="card-title">This website is maintained by Subrata Biswas</p>
+        <hr />
+        <p class="card-text">.....</p>
+        <a href="#" class="btn btn-primary">Go to top</a>
+      </div>
+      <div class="card-footer text-bg-dark p-3">copyright@myWebsite</div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
